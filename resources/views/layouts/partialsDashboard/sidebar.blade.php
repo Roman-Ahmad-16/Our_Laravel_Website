@@ -10,11 +10,16 @@
             <div class="sb-sidenav-menu-heading">Addons</div>
             <a class="nav-link" href="#">
                 <div class="sb-nav-link-icon"><i class="fas fa-chart-area"></i></div>
-                Charts
+                About Us
             </a>
             <a class="nav-link" href="#">
                 <div class="sb-nav-link-icon"><i class="fas fa-table"></i></div>
-                Tables
+                Services
+            </a>
+
+            <a class="nav-link" href="#">
+                <div class="sb-nav-link-icon"><i class="fas fa-table"></i></div>
+                Service Categories
             </a>
 
             <a class="nav-link" href="#">
@@ -22,10 +27,37 @@
                 Why Choose Us
             </a>
 
+            <a class="nav-link" href="#">
+                <div class="sb-nav-link-icon"><i class="fas fa-table"></i></div>
+                Testimonials
+            </a>
+
+            <a class="nav-link" href="#">
+                <div class="sb-nav-link-icon"><i class="fas fa-table"></i></div>
+                Clients
+            </a>
+
+            <a class="nav-link" href="#">
+                <div class="sb-nav-link-icon"><i class="fas fa-table"></i></div>
+                Job Category
+            </a>
+
+            <a class="nav-link" href="#">
+                <div class="sb-nav-link-icon"><i class="fas fa-table"></i></div>
+                Blog Category
+            </a>
+
+            <a class="nav-link" href="#">
+                <div class="sb-nav-link-icon"><i class="fas fa-table"></i></div>
+                Products
+            </a>
+            
+            <a class="nav-link" href="#">
+                <div class="sb-nav-link-icon"><i class="fas fa-table"></i></div>
+                Product Category
+            </a>
+
         </div>
     </div>
-    <div class="sb-sidenav-footer">
-        <div class="small">Logged in as:</div>
-        Start Bootstrap
-    </div>
+
 </nav>
