@@ -3,11 +3,49 @@
 @section('content')
     
 
-<!-- main-area -->
+        <!-- main-area -->
         <main class="fix">
 
-
-
+            <!-- slider-area -->
+            <section class="slider-area">
+                <div class="slider-active">
+                    <div class="single-slider slider-bg" data-background="assets/img/banner/banner_bg.jpg">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <div class="slider-content">
+                                        <span class="sub-title" data-animation="fadeInUp" data-delay=".2s">We Are Expert In This Field</span>
+                                        <h2 class="title" data-animation="fadeInUp" data-delay=".4s">Grow Your Business More Efficiently</h2>
+                                        <p data-animation="fadeInUp" data-delay=".6s">Agilos helps you to convert your data into a strategic asset and get top-notch business insights.</p>
+                                        <a href="services.html" class="btn" data-animation="fadeInUp" data-delay=".8s">Our Services</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slider-shape">
+                            <img src="assets/img/banner/banner_shape.png" alt="" data-animation="zoomIn" data-delay=".8s">
+                        </div>
+                    </div>
+                    <div class="single-slider slider-bg" data-background="assets/img/banner/banner_bg02.jpg">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <div class="slider-content">
+                                        <span class="sub-title" data-animation="fadeInUp" data-delay=".2s">We Are Expert In This Field</span>
+                                        <h2 class="title" data-animation="fadeInUp" data-delay=".4s">Grow Your Business More Efficiently</h2>
+                                        <p data-animation="fadeInUp" data-delay=".6s">Agilos helps you to convert your data into a strategic asset and get top-notch business insights.</p>
+                                        <a href="services.html" class="btn" data-animation="fadeInUp" data-delay=".8s">Our Services</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slider-shape">
+                            <img src="assets/img/banner/banner_shape.png" alt="" data-animation="zoomIn" data-delay=".8s">
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- slider-area-end -->
 
             <!-- about-area -->
             <section class="about-area about-bg" data-background="assets/img/bg/about_bg.jpg">
@@ -720,7 +758,6 @@
             </section>
             <!-- pricing-area-end -->
 
-
             <!-- contact-area -->
             <section class="contact-area contact-bg" data-background="assets/img/bg/contact_bg.jpg">
                 <div class="container">
@@ -776,7 +813,69 @@
             </section>
             <!-- contact-area-end -->
 
+            <!-- blog-post-area -->
+            <section class="blog-post-area">
+                <div class="blog-bg" data-background="assets/img/bg/blog_bg.jpg"></div>
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-xl-6 col-lg-8">
+                            <div class="section-title text-center mb-60 tg-heading-subheading animation-style2">
+                                <span class="sub-title tg-element-title">News & Blogs</span>
+                                <h2 class="title tg-element-title">Read Our Latest Updates</h2>
+                                <p>Ever find yourself staring at your computer screen a good consulting <br> slogan to come to mind? Oftentimes.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row justify-content-center">
+                        <div class="col-lg-4 col-md-6 col-sm-10">
+                            <div class="blog-post-item">
+                                <div class="blog-post-thumb">
+                                    <a href="blog-details.html"><img src="assets/img/blog/blog_img01.jpg" alt=""></a>
+                                    <span class="date"><strong>25</strong>Jan</span>
+                                </div>
+                                <div class="blog-post-content">
+                                    <a href="blog.html" class="tag">Development</a>
+                                    <h2 class="title"><a href="blog-details.html">Meet AutoManage, the best AI management tools</a></h2>
+                                    <p>Everything you need to start building area atching presence for your business.</p>
+                                    <a href="blog-details.html" class="link-btn">Read More <i class="flaticon-right-arrow"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-10">
+                            <div class="blog-post-item">
+                                <div class="blog-post-thumb">
+                                    <a href="blog-details.html"><img src="assets/img/blog/blog_img02.jpg" alt=""></a>
+                                    <span class="date"><strong>25</strong>Jan</span>
+                                </div>
+                                <div class="blog-post-content">
+                                    <a href="blog.html" class="tag">Development</a>
+                                    <h2 class="title"><a href="blog-details.html">Meet AutoManage, the best AI management tools</a></h2>
+                                    <p>Everything you need to start building area atching presence for your business.</p>
+                                    <a href="blog-details.html" class="link-btn">Read More <i class="flaticon-right-arrow"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-10">
+                            <div class="blog-post-item">
+                                <div class="blog-post-thumb">
+                                    <a href="blog-details.html"><img src="assets/img/blog/blog_img03.jpg" alt=""></a>
+                                    <span class="date"><strong>25</strong>Jan</span>
+                                </div>
+                                <div class="blog-post-content">
+                                    <a href="blog.html" class="tag">Development</a>
+                                    <h2 class="title"><a href="blog-details.html">Meet AutoManage, the best AI management tools</a></h2>
+                                    <p>Everything you need to start building area atching presence for your business.</p>
+                                    <a href="blog-details.html" class="link-btn">Read More <i class="flaticon-right-arrow"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- blog-post-area-end -->
 
+            @include('front.partials.team') 
+            
             <!-- brand-area -->
             <div class="brand-aera pb-100">
                 <div class="container">
