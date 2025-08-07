@@ -587,75 +587,8 @@
             </section>
             <!-- team-area-end -->
 
-            <!-- testimonial-area -->
-            <section class="testimonial-area testimonial-bg" data-background="assets/img/bg/testimonial_bg.jpg">
-                <div class="container">
-                    <div class="row align-items-center justify-content-center">
-                        <div class="col-lg-5 col-md-8">
-                            <div class="testimonial-img">
-                                <img src="assets/img/images/testimonial_img.jpg" alt="">
-                                <div class="review-wrap">
-                                    <img src="assets/img/icons/rating.svg" alt="">
-                                    <div class="content">
-                                        <h2 class="title">15k</h2>
-                                        <p>Positive <br> Review</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-7">
-                            <div class="testimonial-item-wrap">
-                                <div class="testimonial-active">
-                                    <div class="testimonial-item">
-                                        <div class="testimonial-content">
-                                            <div class="content-top">
-                                                <div class="rating">
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star"></i>
-                                                </div>
-                                                <div class="testimonial-quote">
-                                                    <img src="assets/img/icons/quote.svg" alt="">
-                                                </div>
-                                            </div>
-                                            <p>“ Morem ipsum dolor sit amet, consectetur adipiscing elita florai sum dolor sit amet, consecteture.Borem ipsum dolor sit amet, consectetur adipiscing elita Moremsit amet.</p>
-                                            <div class="testimonial-info">
-                                                <h4 class="title">Mr.Robey Alexa</h4>
-                                                <span>CEO, Gerow Agency</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="testimonial-item">
-                                        <div class="testimonial-content">
-                                            <div class="content-top">
-                                                <div class="rating">
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star"></i>
-                                                </div>
-                                                <div class="testimonial-quote">
-                                                    <img src="assets/img/icons/quote.svg" alt="">
-                                                </div>
-                                            </div>
-                                            <p>“ Morem ipsum dolor sit amet, consectetur adipiscing elita florai sum dolor sit amet, consecteture.Borem ipsum dolor sit amet, elita Moremsit amet.</p>
-                                            <div class="testimonial-info">
-                                                <h4 class="title">Guy Hawkins</h4>
-                                                <span>CEO, Gerow Agency</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="testimonial-nav"></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <!-- testimonial-area-end -->
+            @include('front.partials.testimonial') 
+
 
             <!-- pricing-area -->
             <section class="pricing-area">

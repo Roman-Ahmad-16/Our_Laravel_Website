@@ -17,9 +17,9 @@
                 Services
             </a>
 
-            <a class="nav-link" href="#">
+            <a class="nav-link" href="{{route('teams.index')}}">
                 <div class="sb-nav-link-icon"><i class="fas fa-table"></i></div>
-                Service Categories
+                Team
             </a>
 
             <a class="nav-link" href="#">
@@ -27,7 +27,7 @@
                 Why Choose Us
             </a>
 
-            <a class="nav-link" href="#">
+            <a class="nav-link" href="{{route('testimonial.index')}}">
                 <div class="sb-nav-link-icon"><i class="fas fa-table"></i></div>
                 Testimonials
             </a>
