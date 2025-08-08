@@ -4,6 +4,7 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\Front\FrontController;
 use App\Http\Controllers\TeamController;
 use App\Http\Controllers\TestimonialController;
+use App\Http\Controllers\WhyChooseUsController;
 
 
 
@@ -27,6 +28,15 @@ Route::delete('/team/delete/{id}', [TeamController::class, 'destroy'])->name('te
     Route::get('/testimonial/edit/{id}',[TestimonialController::class,'edit'])->name('testimonial.edit');
     Route::post('/testimonial/update/{id}',[TestimonialController::class,'update'])->name('testimonial.update');
     Route::post('/testimonial/delete/{id}',[TestimonialController::class,'delete'])->name('testimonial.delete');
+
+
+
+Route::get('/whychooseus',[WhyChooseUsController::class,'index'])->name('whychooseus.index');
+Route::get('/whychooseus/add',[WhyChooseUsController::class,'add'])->name('whychooseus.add');
+Route::post('/whychooseus/store',[WhyChooseUsController::class,'store'])->name('whychooseus.store');
+Route::get('/whychooseus/edit/{id}',[WhyChooseUsController::class,'edit'])->name('whychooseus.edit');
+Route::post('/whychooseus/update/{id}',[WhyChooseUsController::class,'update'])->name('whychooseus.update');
+Route::post('/whychooseus/delete/{id}',[WhyChooseUsController::class,'delete'])->name('whychooseus.delete');
                                 // FRONT ROUTES
 
 Route::get("/", [FrontController::class, 'index'])->name('front.index');

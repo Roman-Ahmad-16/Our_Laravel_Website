@@ -589,7 +589,6 @@
 
             @include('front.partials.testimonial') 
 
-
             <!-- pricing-area -->
             <section class="pricing-area">
                 <div class="container">
@@ -690,6 +689,8 @@
                 </div>
             </section>
             <!-- pricing-area-end -->
+
+            @include('front.partials.whychooseus') 
 
             <!-- contact-area -->
             <section class="contact-area contact-bg" data-background="assets/img/bg/contact_bg.jpg">
