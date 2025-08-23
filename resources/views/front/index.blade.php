@@ -690,7 +690,7 @@
             </section>
             <!-- pricing-area-end -->
 
-            @include('front.partials.whychooseus') 
+         
 
             <!-- contact-area -->
             <section class="contact-area contact-bg" data-background="assets/img/bg/contact_bg.jpg">
