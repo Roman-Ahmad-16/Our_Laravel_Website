@@ -31,12 +31,7 @@ Route::delete('/team/delete/{id}', [TeamController::class, 'destroy'])->name('te
 
 
 
-Route::get('/whychooseus',[WhyChooseUsController::class,'index'])->name('whychooseus.index');
-Route::get('/whychooseus/add',[WhyChooseUsController::class,'add'])->name('whychooseus.add');
-Route::post('/whychooseus/store',[WhyChooseUsController::class,'store'])->name('whychooseus.store');
-Route::get('/whychooseus/edit/{id}',[WhyChooseUsController::class,'edit'])->name('whychooseus.edit');
-Route::post('/whychooseus/update/{id}',[WhyChooseUsController::class,'update'])->name('whychooseus.update');
-Route::post('/whychooseus/delete/{id}',[WhyChooseUsController::class,'delete'])->name('whychooseus.delete');
+
                                 // FRONT ROUTES
 
 Route::get("/", [FrontController::class, 'index'])->name('front.index');
