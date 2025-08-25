@@ -14,7 +14,7 @@ class FrontController extends Controller
     {
         $teams = Team::orderBy('id', 'DESC')->get();
         $testimonials = Testimonial::orderBy('id','DESC')->get();
-        return view('front.index',compact('teams','testimonials'));
+        return view('front.index',compact('teams','testimonials' ));
     }
 
 
